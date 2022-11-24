@@ -69,7 +69,7 @@ def xo():
             count = 2
             if o == "quit" or o == "":
                 break
-            check_input(slots, o, count, field)g
+            check_input(slots, o, count, field)
 
             x = str(input())
             count -= 1
