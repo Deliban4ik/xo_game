@@ -30,11 +30,11 @@ def xo():
 
         match count:
             case 2:
-                sym = "o"
+                sym = "o"#sym=o
                 check_fill_slots(sym)
 
             case 1:
-                sym = "x"
+                sym = "x"#sym=x
                 check_fill_slots(sym)
 
     slots = {
